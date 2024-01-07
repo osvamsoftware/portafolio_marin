@@ -1,0 +1,90 @@
+{
+    "aboutMe": "ABOUT ME",
+    "@aboutMe": {
+        "description": "aboutme description"
+    },
+    "helloIm": "Hello, Im Osva",
+    "@helloIm": {
+        "description": "helloIm description"
+    },
+    "myDescription": "Im passionate about cross-platform developtment, but especially about frontend and backend mobile developtment. When im not programig, im doing sports activities or having coffee with friends, i love work with teams!",
+    "@myDescription": {
+        "description": "myDescription description"
+    },
+    "mySkills": "My Skill",
+    "@mySkills": {
+        "description": "mySkills description"
+    },
+    "services": "Services",
+    "@services": {
+        "description": "services description"
+    },
+    "projects": "Projects",
+    "@projects": {
+        "description": "projects description"
+    },
+    "whatIDo": "What I Do?",
+    "@whatIDo": {
+        "description": "whatIDo description"
+    },
+    "contact": "Contact",
+    "@contact": {
+        "description": "contact description"
+    },
+    "email": "Email",
+    "@email": {
+        "description": "email description"
+    },
+    "name": "Name",
+    "@name": {
+        "description": "name description"
+    },
+    "message": "Message",
+    "@message": {
+        "description": "message description"
+    },
+    "send": "Send",
+    "@send": {
+        "description": "send description"
+    },
+    "sending": "Sending message",
+    "@sending": {
+        "description": "sending description"
+    },
+    "sended": "The message sended done",
+    "@sended": {
+        "description": "sended description"
+    },
+    "thanksFor": "Thank you for contacting me, I will contact you shortly to continue with the process.",
+    "@thanksFor": {
+        "description": "thanks for description"
+    },
+    "error": "Something went wrong",
+    "@error": {
+        "description": "error description"
+    },
+    "tryAgain": "Please try again later or contact me in my social channels",
+    "@tryAgain": {
+        "description": "tryAgain description"
+    },
+    "areYouReady": "Are you ready to work with me? Send me a message in my social channels",
+    "@areYouReady": {
+        "description": "areYouReady description"
+    },
+    "eCommerceDescription": "App with login and register sesion with email, password, Facebook and Gmail. Contains a store home and stock, user and Admin Mobile Sections, with custom Widgets, Go navigation, some animations. Custom Painter to notifications Items. Using Clean Arch and Riverpod(or BLoC) like State Managenment.",
+    "@eCommerceDescription": {
+        "description": "eCommerceDescription description"
+    },
+    "eventDescription": "Mobile application to schedule events in a social space. The application allows users to set dates to use properties. Flutter and Dart were used, BLoC as a state manager, also use of Date Picker and packages related to calendars. Local storage.",
+    "@eventDescription": {
+        "description": "eventDescription description"
+    },
+    "travelDescription": "Mobile application in which the record of trips in heavy load trucks is kept, the moment in which it arrives at the destination, inconveniences along the way, expenses, documentation, duration of the trip and more. BLoC as a state manager, Firebase and Py Fast Api for CRUD.",
+    "@travelDescription": {
+        "description": "travel Description description"
+    },
+    "taxiDescription": "App to manage vehicles that provide private taxi transportation service. BLoC was used as a state manager, Firebase and NodeJs for backend and realtime, Google Maps, Polylines, Firebase Auth. User App, Driver App and Administrator App.",
+    "@taxiDescription": {
+        "description": "taxi Description description"
+    }
+}
