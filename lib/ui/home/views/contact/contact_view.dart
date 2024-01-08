@@ -198,14 +198,17 @@ class ContactView extends StatelessWidget {
                           mainAxisAlignment: MainAxisAlignment.center,
                           children: [
                             TextFormField(
+                              controller: contactCubit.nameController,
                               decoration: InputDecoration(label: Text(translate.name)),
                             ),
                             TextFormField(
+                              controller: contactCubit.emailController,
                               decoration: InputDecoration(label: Text(translate.email)),
                             ),
                             TextFormField(
                               maxLines: null,
                               keyboardType: TextInputType.multiline,
+                              controller: contactCubit.messageController,
                               decoration: InputDecoration(label: Text(translate.message)),
                             ),
                             SizedBox(

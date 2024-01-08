@@ -1,13 +1,19 @@
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:portfolio_marin/core/settings/theme/cubit/theme_cubit.dart';
 import 'package:portfolio_marin/core/settings/theme/theme_config.dart';
+import 'package:portfolio_marin/firebase_options.dart';
 import 'package:portfolio_marin/l10n/l10n.dart';
 import 'package:portfolio_marin/ui/router/router.dart';
 
 import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
-void main() {
+void main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  await Firebase.initializeApp(
+    options: DefaultFirebaseOptions.currentPlatform,
+  );
   runApp(const MyApp());
 }
 
