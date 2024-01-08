@@ -249,7 +249,7 @@ class ContactView extends StatelessWidget {
                                   height: 24,
                                 ),
                                 SizedBox(
-                                  width: 10,
+                                  width: 20,
                                 ),
                                 Text(
                                   'Phone: ',
