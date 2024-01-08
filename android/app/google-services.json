@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "201048628809",
+    "project_id": "portfoliomarin-4416b",
+    "storage_bucket": "portfoliomarin-4416b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:201048628809:android:30d02855f9978bfccba998",
+        "android_client_info": {
+          "package_name": "com.example.portfolio_marin"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCy_U_2Y0d2piEVhM8yzUoTQQC_KOmpzyo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
