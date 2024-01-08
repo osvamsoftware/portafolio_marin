@@ -7,6 +7,8 @@ import 'package:portfolio_marin/core/constants/paths.dart';
 import 'package:portfolio_marin/ui/home/views/contact/cubit/contact_cubit.dart';
 import 'package:portfolio_marin/ui/shared/custom_widgets/custom_web_appbar/cubit/navbar_scroll_cubit.dart';
 import 'package:scroll_to_index/scroll_to_index.dart';
+import 'package:svg_flutter/svg.dart';
+import 'package:url_launcher/url_launcher.dart';
 import 'package:visibility_detector/visibility_detector.dart';
 
 class ContactView extends StatelessWidget {
@@ -212,12 +214,54 @@ class ContactView extends StatelessWidget {
                               decoration: InputDecoration(label: Text(translate.message)),
                             ),
                             SizedBox(
-                              height: screenHeight * .1,
+                              height: screenHeight * .08,
                             ),
                             ElevatedButton(onPressed: () => contactCubit.sendMessage(), child: Text(translate.send))
                           ],
                         ),
                       ),
+                      Column(
+                        mainAxisAlignment: MainAxisAlignment.center,
+                        crossAxisAlignment: CrossAxisAlignment.start,
+                        children: [
+                          Row(
+                            children: [
+                              Icon(Icons.email),
+                              SizedBox(
+                                width: 10,
+                              ),
+                              Text(
+                                'Email: ',
+                                style: textStyle.bodyMedium!.copyWith(fontWeight: FontWeight.w400),
+                              ),
+                              SelectableText('osvam.software@gmail.com',
+                                  style: textStyle.bodySmall!.copyWith(fontWeight: FontWeight.w100))
+                            ],
+                          ),
+                          InkWell(
+                            onTap: () {
+                              launchUrl(Uri.parse('https://wa.me/543856860042'));
+                            },
+                            child: Row(
+                              children: [
+                                Image.asset(
+                                  paths.whatsIcon,
+                                  height: 24,
+                                ),
+                                SizedBox(
+                                  width: 10,
+                                ),
+                                Text(
+                                  'Phone: ',
+                                  style: textStyle.bodyMedium!.copyWith(fontWeight: FontWeight.w400),
+                                ),
+                                SelectableText('+54-385-686-00-42',
+                                    style: textStyle.bodySmall!.copyWith(fontWeight: FontWeight.w100))
+                              ],
+                            ),
+                          ),
+                        ],
+                      )
                     ],
                   )),
             );

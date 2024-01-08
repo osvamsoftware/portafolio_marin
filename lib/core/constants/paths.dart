@@ -23,6 +23,8 @@ class ConstPaths {
   final String viajes1 = 'assets/projects/viajes_1.png';
   final String viajes2 = 'assets/projects/viajes_2.png';
   final String viajes3 = 'assets/projects/viajes_3.png';
+  final String whatsappIcon = 'assets/projects/whatsapp-icon.svg';
+  final String whatsIcon = 'assets/whats-icon.png';
 
   //icons
 }
